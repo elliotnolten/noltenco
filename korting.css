@@ -1,0 +1,58 @@
+.discount article {
+  text-align:center;
+  padding:0 10%;
+}
+.discount p {
+  font-size:1.25em;
+  padding:0 2em;
+}
+.discount a {
+  color:#36C;
+}
+.discount a:hover {
+  text-decoration:underline;
+}
+input, button, .button, #submit {
+  padding:0.5em 1em;
+  border-radius:0.25em;
+  border:none;
+  font-size:1.5em !important;
+  text-align:center;
+  font:inherit;
+  box-shadow:none;
+  margin:1em 0;
+  display:inline-block;
+  text-transform:none;
+}
+input {
+  border:1px solid #AAA;
+}
+input[type="submit"] {
+  border:1px solid #36C;
+}
+input:focus {
+  outline:#36C;
+  border:1px solid #36C;
+}
+button, .button, input[type="submit"],
+button:hover, .button:hover, #submit:hover  {
+  background:#36C;
+  color:#FFF !important;
+  font-weight:600;
+}
+.messages > div {
+  display:none;
+}
+.ninja-forms-all-fields-wrap .field-wrap {
+  display:inline-block;
+  width:45%;
+  padding:0;
+  margin:0 0 10px 0;
+}
+.ninja-forms-all-fields-wrap input {
+  width:90% !important;
+  margin:1em 5%;
+}
+.ninja-forms-all-fields-wrap input[type="submit"] {
+  width:100%;
+}
