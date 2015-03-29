@@ -1,0 +1,25 @@
+{
+  "name": "noltenco",
+  "version": "0.0.0",
+  "homepage": "https://github.com/elliotnolten/noltenco",
+  "authors": [
+    "Elliot Nolten <elliotnolten@gmail.com>"
+  ],
+  "description": "WP theme development for personal portfolio",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

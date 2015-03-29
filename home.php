@@ -14,9 +14,9 @@ Template Name: Home
 					'key' => 'featured',
 					'value' => 'yes')
 				))); 
-				if (have_posts()) : $full_post = get_option('full_post'); while (have_posts()) : the_post(); ?>  
-				<li style="background: url(<?php the_field('work_background');?>) center center no-repeat;">
-				</li>
+				if (have_posts()) : $full_post = get_option('full_post'); while (have_posts()) : the_post(); ?>
+					<li style="background: <?php the_field('background_color'); ?> url(<?php the_field('work_background'); ?>) center center no-repeat;">
+					</li>
 			<?php endwhile; endif; ?>
 			<?php wp_reset_query(); ?>
 		</ul>

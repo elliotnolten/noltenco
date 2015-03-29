@@ -1,0 +1,22 @@
+{
+  "name": "noltenco",
+  "version": "1.0.0",
+  "description": "WP theme development for personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliotnolten/noltenco.git"
+  },
+  "author": "Elliot Nolten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotnolten/noltenco/issues"
+  },
+  "homepage": "https://github.com/elliotnolten/noltenco",
+  "devDependencies": {
+    "less": "^2.4.0"
+  }
+}
